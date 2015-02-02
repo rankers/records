@@ -1,7 +1,7 @@
 records
 ==============================
 
-Record keeping app
+Record keeping application
 
 
 LICENSE: BSD
