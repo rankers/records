@@ -1,2 +1,1 @@
-echo $PWD
-web: gunicorn --pythonpath="$PWD/records" wsgi:application
+web: gunicorn records.wsgi:application
