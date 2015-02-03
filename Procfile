@@ -1,1 +1,2 @@
-web: waitress-serve --port=$PORT records.wsgi:application
+web: gunicorn --pythonpath="$PWD/records" wsgi:application
+
